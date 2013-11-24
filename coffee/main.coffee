@@ -2,6 +2,11 @@
 #       Game settings
 #
 tick_period = 60
+min_tasty_point_life = 50
+tasty_point_scale = 10
+max_tasty_points = 3
+tasty_points_frequency = 20
+
 
 # globals
 ticker = ticks = playField = gameCanvas = null

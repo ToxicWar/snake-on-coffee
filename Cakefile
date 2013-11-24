@@ -2,6 +2,7 @@ fs = require 'fs'
 {exec} = require 'child_process'
 
 files  = [
+  'utils'
   'canvas'
   'snake'
   'main'
