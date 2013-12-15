@@ -4,7 +4,7 @@
 tick_period = 60
 dotsize = 24
 min_tasty_point_life = 50
-max_tasty_points = 3
+max_tasty_points = 1
 
 
 # globals
@@ -30,7 +30,7 @@ init = ->
 
 start = ->
   stop()
-  playField = new PlayField(720, 480)
+  playField = new PlayField(720 / dotsize, 480 / dotsize)
   gameCanvas = new GameCanvas(document.getElementById('game'), playField.width, playField.height)
   ticks = 0
   ticker = setInterval(tick, tick_period)
