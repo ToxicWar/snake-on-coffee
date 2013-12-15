@@ -22,7 +22,7 @@ class GameCanvas
     @context.beginPath(x * @xScale, y * @yScale)
 
   lineTo: (x, y) ->
-    @context.lineTo(x * @xScale, y * @yScale)
+    @context.lineTo(x * @xScale + 12, y * @yScale + 12)
 
   endPath: () ->
     @context.stroke()
